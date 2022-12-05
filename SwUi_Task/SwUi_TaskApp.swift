@@ -11,7 +11,7 @@ import SwiftUI
 struct SwUi_TaskApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(stock: Stock(high: 0, low: 0, current: 0, name: Constants.loadMessage))
         }
     }
 }
